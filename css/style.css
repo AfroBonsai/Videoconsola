@@ -1,1 +1,237 @@
+body {
+    margin: 0 0 0 0;
+}
 
+#container {
+    float: left;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    min-width: 1200px;
+    min-height: 500px;
+}
+
+#switch {
+    /* background-color: violet; */
+    width: 1200px;
+    height: 500px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.joycon {
+    width: 178px;
+    float: left;
+}
+
+
+/* --------------------CONSOLE BODY-------------------- */
+
+#joycon1 {
+    background-color: rgb(0, 195, 227);
+    position: relative;
+    border-radius: 100px 0 0 80px;
+    
+}
+
+#joycon2 {
+    background-color: rgb(230, 0, 18);
+    position: relative;
+    border-radius: 0 100px 80px 0;
+}
+
+
+#console {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    float: left;
+    flex-grow: 1;
+}
+
+
+/* --------------------SCREEN-------------------- */
+
+#glass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 92%;
+    height: 90%;
+    border-radius: 15px;
+}
+
+#console {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#screen {
+    background-color: rgb(133, 131, 131);
+    width: 86%;
+    height: 84%;
+}
+
+
+/* --------------------BUTTONS A, B, X, Y-------------------- */
+
+.buttons {
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px;
+    /* background-color: white; */
+    color: #444;
+    justify-content: center;
+    margin-top: 20px;
+}
+#arrows {
+    margin-top: 35px;
+}
+
+#top, #left, #right, #bot {
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+/* --------------------BUTTONS - y + -------------------- */
+
+.bt_menu {
+    display: grid;
+    grid-template-columns: 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px;
+    /* background-color: yellow; */
+    }
+
+#bt_minus {
+    justify-content: right;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+#bt_plus {
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#cross_top, #cross_left, #cross_mid, #cross_right, #cross_bot{
+    background-color: black;
+    justify-items: center;
+} 
+
+
+/* --------------------JOYSTICKS-------------------- */
+
+#stick_left, #stick_right {
+    display: grid;
+    grid-template-columns: 35px 35px;
+    grid-template-rows: 35px 35px;
+    /* background-color: orange; */
+    justify-content: center;
+    color: white;
+}
+
+#stick_left {
+    margin-top: 30px;
+}
+#stick_right {
+    margin-top: 35px;
+}
+
+/* otra versión de joysticks:
+
+#stick_left, #stick_right {
+    display: flex;
+    border-radius: 50%;
+    grid-template-columns: 35px 35px;
+    grid-template-rows: 35px 35px;
+    background-color: orange;
+    justify-content: center;
+    color: white;  */
+
+
+
+
+#stick_1 {
+    border-radius: 100% 0 0 0;
+    background-color: black;
+    border-left: 4px solid rgb(34, 34, 34);
+    border-top: 4px solid rgb(34, 34, 34);
+}
+#stick_2 {
+    border-radius: 0 100% 0 0;
+    background-color: black;
+    border-right: 4px solid rgb(34, 34, 34);
+    border-top: 4px solid rgb(34, 34, 34);
+}
+#stick_3 {
+    border-radius: 0 0 0 100%;
+    background-color: black;
+    border-left: 4px solid rgb(34, 34, 34);
+    border-bottom: 4px solid rgb(34, 34, 34);
+}
+#stick_4 {
+    border-radius: 0 0 100% 0;
+    background-color: black;
+    border-right: 4px solid rgb(34, 34, 34);
+    border-bottom: 4px solid rgb(34, 34, 34);
+}
+
+
+/* --------------------BOTTOM BUTTONS-------------------- */
+
+#homebtn {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    color: black;
+    border-radius: 50%;
+    border: 5px solid gray;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+
+#printscr {
+    background-color: rgb(53, 53, 53);
+    color: black;
+    font-size: 50px;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-top: 35px;
+    margin-right: 30px;
+}
+
+#bt_printscr {
+    background-color: black;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+}
