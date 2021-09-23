@@ -24,7 +24,6 @@ body {
 
 }
 
-
 .joycon {
     width: 178px;
     float: left;
@@ -102,8 +101,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-} 
-
+}
+   
 
 /* --------------------BUTTONS - y + -------------------- */
 
