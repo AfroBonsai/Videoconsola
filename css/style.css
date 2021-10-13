@@ -165,7 +165,7 @@ img {
     display: grid;
     grid-template-columns: 35px 35px;
     grid-template-rows: 35px 35px;
-    /* grid-gap: 4px; */
+    grid-gap: 0px;
     /* background-color: orange; */
     justify-content: center;
 }
